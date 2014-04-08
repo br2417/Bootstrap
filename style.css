@@ -1,0 +1,24 @@
+body {
+
+}
+
+/*
+div {
+	outline: 1px solid gray;
+}
+*/
+
+
+.row {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+/*smartphones (portrait)  - the below makes the webpage turn red when the browser is smaller than 450px*/ 
+
+@media only screen
+and (max-width : 450px) {
+	body {
+		background-color: red;
+	}
+}
